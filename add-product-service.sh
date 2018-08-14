@@ -16,5 +16,6 @@ cd add-product-service
 docker build -t add-product-service .
 docker tag add-product-service aritranag20/add-product-service
 docker push aritranag20/add-product-service
+ls
 docker-compose up
 #and the rest of your commands
